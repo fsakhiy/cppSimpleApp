@@ -6,7 +6,6 @@
 
 #include<iostream>
 #include<string>
-#include<algorithm>
 #include<cstring>
 
 using namespace std;
@@ -76,10 +75,8 @@ float convertMass()
         unitB[i] = tolower(unitB[i]);
     }
 
-    //cout << "\n" << unitA << unitB;
     string strUnitA = unitA, strUnitB = unitB;
 
-    //cout << "\n"<< strUnitA << strUnitB;
     if(strUnitA == "kg")
     {
         if(strUnitB == "g")
